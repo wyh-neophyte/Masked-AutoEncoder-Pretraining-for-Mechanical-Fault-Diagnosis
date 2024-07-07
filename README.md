@@ -1,4 +1,10 @@
 ### 📣 Introduction
+The method , as shown in figure below.
+![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/edit/main/assets/method.png)
+### Experiment results
+
+![image](https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg)
+![image](https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg)
 
 ### 🚀 Quick Start
 #### 1. Installation

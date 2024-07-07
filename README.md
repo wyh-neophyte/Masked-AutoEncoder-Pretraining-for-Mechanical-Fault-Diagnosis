@@ -1,11 +1,12 @@
 ### 📣 Introduction
 The method , as shown in figure below.
-![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/edit/main/assets/method.png)
+![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/method.png)
 ### Experiment results
-We train the classifier on LinGang dataset under vaiable working conditions, e.g., using 1800rpm data as training domain and 1200 rpm as testing domain. Without MAE pretraining, the results is trained with 20 repetitive experiments.
-![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/Without-MAE-train1800-test1200.png)
-With MAE pretrained parameters, the encoder is frozen except for the last two encoder layers. The experiments show a 2-3 percent improvement in average accuracy compared to the baseline.  
-![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/MAE-pretrained-train1800-test1200.png)
+We train the classifier on LinGang dataset under vaiable working conditions, e.g., using 1800rpm data as training domain and 1200 rpm as testing domain. The results is trained with 20 repetitive experiments. With MAE pretrained parameters, the encoder is frozen except for the last two encoder layers. The experiments show a 2-3 percent improvement in average accuracy compared to the baseline.  
+<div>
+  <img src="https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/Without-MAE-train1800-test1200.png" width="49%" />
+  <img src="https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/MAE-pretrained-train1800-test1200.png" width="49%" />
+</div>
 
 ### 🚀 Quick Start
 #### 1. Installation

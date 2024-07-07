@@ -18,7 +18,14 @@ You may install the dependencies by the following command.
 pip install -e .
 ```
 #### 2. Data Preparation
-Download the mechanical fault diagnosis dataset, i.e., CRWU, HUST, LinGang。
+Download the mechanical fault diagnosis dataset, i.e., [CRWU bearing dataset](https://engineering.case.edu/bearingdatacenter/download-data-file), HUST, LinGang.
+Put the datasets under a folder, the path of which is needed in training.
+```
+your/direction
+--CRWU
+--HUST
+--LinGang
+```
 
 #### 3. Set PYTHONPATH
 ```

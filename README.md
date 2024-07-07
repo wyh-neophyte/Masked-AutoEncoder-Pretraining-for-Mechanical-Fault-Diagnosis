@@ -2,9 +2,10 @@
 The method , as shown in figure below.
 ![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/edit/main/assets/method.png)
 ### Experiment results
-
-![image](https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg)
-![image](https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg)
+We train the classifier on LinGang dataset under vaiable working conditions, e.g., using 1800rpm data as training domain and 1200 rpm as testing domain. Without MAE pretraining, the results is trained with 20 repetitive experiments.
+![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/Without-MAE-train1800-test1200.png)
+With MAE pretrained parameters, the encoder is frozen except for the last two encoder layers. The experiments show a 2-3 percent improvement in average accuracy compared to the baseline.  
+![image](https://github.com/wyh-neophyte/Masked-AutoEncoder-Pretraining-for-Mechanical-Fault-Diagnosis/blob/main/assets/MAE-pretrained-train1800-test1200.png)
 
 ### 🚀 Quick Start
 #### 1. Installation

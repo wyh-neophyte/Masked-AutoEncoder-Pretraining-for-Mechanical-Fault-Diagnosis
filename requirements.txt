@@ -1,0 +1,5 @@
+pytorch
+lvm_read
+scipy
+PyWavelets
+tqdm

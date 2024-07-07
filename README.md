@@ -1,4 +1,4 @@
-### Introduction
+### 📣 Introduction
 
 ### 🚀 Quick Start
 #### 1. Installation
@@ -7,7 +7,7 @@ You may install the dependencies by the following command.
 pip install -e .
 ```
 #### 2. Data Preparation
-Download the mechanical fault diagnosis dataset, i.e., [CRWU](), [HUST](), [LinGang]()
+Download the mechanical fault diagnosis dataset, i.e., CRWU, HUST, LinGang。
 
 #### 3. Set PYTHONPATH
 ```
